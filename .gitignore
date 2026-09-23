@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Variables de entorno
+.env
+.env.local
+
+# Datos (NO subir)
+data/*
+data_raw/
+
+#Excepciones de Data
+!data/clientes.csv
+!data/productos.csv
+!data/ventas.csv
+
+#Excepciones de notebook 
+bd2/*
+!bd2/notebook2.ipynb

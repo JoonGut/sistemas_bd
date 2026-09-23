@@ -1,0 +1,501 @@
+﻿id_cliente,nombre,apellidos,sexo,edad,ciudad,provincia,codigo_postal,fecha_alta,socio,tipo_cliente
+1,Álvaro,Castro Navarro,Mujer,24,Valencia,Valencia,35314,2023-04-25,False,Normal
+2,Miguel,Martín Sánchez,Mujer,40,Santander,Cantabria,49225,2022-01-22,False,Ocasional
+3,Elena,Romero Ortega,Mujer,61,Alicante,Alicante,23449,2023-11-14,True,Normal
+4,María,Romero Pérez,Hombre,49,Salamanca,Salamanca,18478,2024-06-24,True,Normal
+5,Alejandro,Jiménez Castro,Mujer,28,Logroño,La Rioja,36179,2022-11-16,True,Frecuente
+6,Daniel,Jiménez Sánchez,Mujer,39,Málaga,Málaga,52769,2022-05-06,True,Frecuente
+7,Claudia,Ruiz López,Hombre,39,Zaragoza,Zaragoza,47881,2022-10-04,False,Frecuente
+8,Javier,Ortega García,Mujer,60,Alicante,Alicante,26338,2022-07-13,True,Ocasional
+9,Claudia,Jiménez Pérez,Hombre,42,Gijón,Asturias,27899,2023-11-27,True,Normal
+10,David,López Romero,Mujer,39,Madrid,Madrid,05145,2022-02-26,True,Normal
+11,Carmen,Ortega Fernández,Mujer,45,Murcia,Murcia,33101,2022-01-19,False,Frecuente
+12,Marta,Díaz López,Mujer,46,Murcia,Murcia,03775,2022-09-21,False,Ocasional
+13,Pablo,Pérez Torres,Hombre,30,Barcelona,Barcelona,46961,2024-03-04,False,Ocasional
+14,Sergio,Fernández Moreno,Mujer,35,Valencia,Valencia,32647,2022-04-23,True,Normal
+15,Laura,Gómez Vázquez,Mujer,19,Santander,Cantabria,46619,2023-06-26,False,Frecuente
+16,Carlos,Vázquez Romero,Mujer,46,Sevilla,Sevilla,46838,2023-10-09,False,Frecuente
+17,Jorge,Fernández Moreno,Hombre,38,Bilbao,Bizkaia,20539,2023-08-02,False,Normal
+18,Lucía,Torres Navarro,Hombre,32,Madrid,Madrid,37738,2024-12-24,False,Normal
+19,Andrea,Díaz Martín,Mujer,69,Valencia,Valencia,27616,2022-01-25,True,Normal
+20,Iván,Moreno Álvarez,Hombre,44,A Coruña,A Coruña,15119,2022-01-01,False,Normal
+21,Pablo,Castro Torres,Mujer,67,Barcelona,Barcelona,26159,2024-06-29,False,Normal
+22,Claudia,Gómez Martín,Mujer,48,Sevilla,Sevilla,38099,2022-05-21,True,Frecuente
+23,Laura,Ortega Romero,Mujer,32,Bilbao,Bizkaia,11295,2023-10-10,True,Normal
+24,Rubén,Pérez Álvarez,Mujer,68,Logroño,La Rioja,35710,2022-07-07,False,Normal
+25,Iván,García Vázquez,Mujer,40,A Coruña,A Coruña,25685,2022-07-20,True,Normal
+26,María,Torres Ortega,Mujer,41,Santander,Cantabria,50343,2022-09-14,True,Normal
+27,Álvaro,Díaz Gómez,Mujer,61,Burgos,Burgos,26479,2023-07-01,False,Frecuente
+28,María,Vázquez López,Hombre,30,Santander,Cantabria,47172,2022-07-13,True,Normal
+29,Pablo,Torres Moreno,Hombre,39,Salamanca,Salamanca,34629,2023-12-04,True,Normal
+30,Carlos,Gómez López,Hombre,60,Málaga,Málaga,43043,2024-03-12,True,Frecuente
+31,Miguel,Torres Ortega,Hombre,54,Zaragoza,Zaragoza,18033,2024-07-30,True,Normal
+32,Sofía,Ortega Álvarez,Hombre,78,Barcelona,Barcelona,37902,2023-02-18,True,Frecuente
+33,Alejandro,Jiménez Romero,Hombre,50,Vigo,Pontevedra,45571,2024-06-28,True,Frecuente
+34,Jorge,Torres Álvarez,Hombre,73,Málaga,Málaga,16408,2022-07-07,False,Ocasional
+35,Álvaro,Ortega Gómez,Mujer,20,Málaga,Málaga,18420,2022-02-14,True,Ocasional
+36,Miguel,Martín Torres,Mujer,80,Logroño,La Rioja,17351,2022-03-24,False,Ocasional
+37,Claudia,Torres Moreno,Mujer,71,Barcelona,Barcelona,05131,2022-12-24,False,Normal
+38,María,Gómez Ortega,Mujer,36,Bilbao,Bizkaia,52300,2024-12-25,True,Frecuente
+39,Lucía,García Martínez,Hombre,40,Málaga,Málaga,45825,2024-07-24,False,Normal
+40,Elena,Muñoz Jiménez,Hombre,46,Gijón,Asturias,12349,2023-01-10,True,Normal
+41,Carmen,Castro Pérez,Mujer,47,Madrid,Madrid,45254,2022-06-11,True,Frecuente
+42,María,Castro Navarro,Mujer,56,Bilbao,Bizkaia,39225,2022-11-18,True,Normal
+43,Alejandro,Torres Fernández,Hombre,61,A Coruña,A Coruña,39847,2023-03-26,False,Frecuente
+44,Javier,Muñoz Martín,Mujer,64,Barcelona,Barcelona,13453,2024-11-02,True,Ocasional
+45,Rubén,Navarro Díaz,Mujer,42,Logroño,La Rioja,19814,2022-07-03,True,Normal
+46,Marta,Martín Muñoz,Mujer,54,Salamanca,Salamanca,19263,2022-04-21,False,Normal
+47,Miguel,Castro Torres,Mujer,64,Vigo,Pontevedra,13158,2023-05-23,True,Normal
+48,Laura,Vázquez Martín,Hombre,25,Burgos,Burgos,16735,2022-10-22,True,Normal
+49,Laura,García Vázquez,Mujer,59,Zaragoza,Zaragoza,16830,2024-06-22,True,Normal
+50,Marta,Álvarez Vázquez,Mujer,75,Gijón,Asturias,48893,2024-08-31,False,Frecuente
+51,Carmen,Castro Álvarez,Hombre,33,León,León,45673,2023-09-24,False,Ocasional
+52,Alejandro,Romero Romero,Hombre,25,Sevilla,Sevilla,24926,2024-11-16,True,Normal
+53,Rubén,Vázquez Pérez,Mujer,18,Málaga,Málaga,46066,2024-01-03,True,Ocasional
+54,Laura,Fernández Díaz,Hombre,61,Zaragoza,Zaragoza,35779,2022-11-17,True,Ocasional
+55,Alejandro,Torres Muñoz,Mujer,22,Vigo,Pontevedra,04373,2024-07-01,False,Normal
+56,Laura,Vázquez García,Mujer,20,Bilbao,Bizkaia,11335,2023-03-13,True,Ocasional
+57,Andrea,Pérez Pérez,Hombre,18,Madrid,Madrid,24741,2024-02-20,True,Frecuente
+58,Andrea,Castro Jiménez,Mujer,21,A Coruña,A Coruña,11692,2024-12-12,True,Frecuente
+59,Sergio,Martínez Martín,Mujer,57,Gijón,Asturias,48295,2023-12-27,True,Frecuente
+60,Miguel,García Díaz,Mujer,52,Barcelona,Barcelona,46541,2022-01-31,True,Normal
+61,Alejandro,Martín Castro,Mujer,49,Barcelona,Barcelona,35057,2022-12-03,True,Normal
+62,David,Gómez Jiménez,Hombre,59,Bilbao,Bizkaia,02447,2022-07-02,True,Normal
+63,Elena,López Torres,Hombre,51,Pamplona,Navarra,20583,2024-11-12,False,Ocasional
+64,David,Ruiz Moreno,Mujer,60,Vigo,Pontevedra,23765,2023-06-28,True,Normal
+65,María,Ruiz Álvarez,Hombre,42,Oviedo,Asturias,24906,2024-10-30,False,Normal
+66,Sergio,Castro Romero,Mujer,27,Santander,Cantabria,20567,2023-10-22,True,Normal
+67,Claudia,Álvarez Navarro,Mujer,38,Logroño,La Rioja,15139,2022-06-09,False,Frecuente
+68,Claudia,Fernández Ortega,Mujer,63,A Coruña,A Coruña,47525,2024-11-03,False,Ocasional
+69,Ana,García García,Mujer,56,Madrid,Madrid,39230,2023-02-16,True,Frecuente
+70,María,Vázquez Ruiz,Mujer,44,Pamplona,Navarra,20520,2024-10-08,True,Ocasional
+71,Miguel,Gómez Martín,Hombre,44,Bilbao,Bizkaia,20702,2022-02-22,False,Normal
+72,Paula,Martín Vázquez,Mujer,19,Valencia,Valencia,52934,2023-02-12,True,Frecuente
+73,Lucía,García García,Hombre,58,Vigo,Pontevedra,26566,2024-04-26,False,Frecuente
+74,Paula,López Fernández,Hombre,65,Santander,Cantabria,08657,2024-11-11,True,Ocasional
+75,Sara,Martín García,Mujer,30,Vigo,Pontevedra,38688,2024-11-19,False,Normal
+76,Lucía,Romero García,Mujer,26,Bilbao,Bizkaia,31134,2023-12-04,True,Normal
+77,Álvaro,Sánchez Jiménez,Mujer,69,Alicante,Alicante,11345,2022-09-17,False,Normal
+78,Álvaro,López Muñoz,Mujer,53,A Coruña,A Coruña,42185,2024-12-18,False,Frecuente
+79,Carmen,Castro García,Mujer,39,Alicante,Alicante,50928,2024-02-15,False,Normal
+80,Pablo,García Muñoz,Hombre,59,Valencia,Valencia,28413,2024-11-01,True,Frecuente
+81,Julia,Romero Ortega,Mujer,43,Málaga,Málaga,06208,2024-04-29,False,Ocasional
+82,María,Martín Gómez,Mujer,75,León,León,34455,2022-12-20,True,Normal
+83,Álvaro,Fernández Fernández,Hombre,71,Oviedo,Asturias,50681,2024-05-22,False,Normal
+84,Julia,López Pérez,Hombre,29,Logroño,La Rioja,29018,2024-09-17,True,Frecuente
+85,Laura,Álvarez Gómez,Mujer,34,Bilbao,Bizkaia,46991,2024-10-14,False,Normal
+86,Jorge,Álvarez Álvarez,Hombre,31,Murcia,Murcia,09080,2022-10-21,True,Normal
+87,Miguel,Díaz Vázquez,Mujer,31,Vigo,Pontevedra,22902,2022-07-28,False,Normal
+88,Javier,Navarro Romero,Hombre,74,Burgos,Burgos,52305,2024-03-28,False,Normal
+89,Carlos,Martínez Fernández,Hombre,51,Salamanca,Salamanca,10486,2023-01-25,False,Ocasional
+90,Rubén,Ortega Ruiz,Mujer,70,Madrid,Madrid,39862,2022-11-21,True,Normal
+91,Carlos,Sánchez Moreno,Hombre,74,Santander,Cantabria,22158,2024-07-28,True,Frecuente
+92,Laura,Álvarez Torres,Hombre,37,Barcelona,Barcelona,41460,2024-06-07,False,Normal
+93,Alejandro,Navarro Martín,Hombre,28,Alicante,Alicante,44856,2023-10-30,True,Normal
+94,David,Vázquez Díaz,Hombre,33,Santander,Cantabria,36871,2023-09-25,True,Normal
+95,Lucía,Gómez López,Hombre,68,Alicante,Alicante,36208,2023-07-31,False,Normal
+96,Sofía,Ruiz Pérez,Hombre,48,Valencia,Valencia,21519,2022-05-17,False,Normal
+97,Sergio,Gómez Jiménez,Mujer,72,Pamplona,Navarra,32379,2023-03-04,True,Normal
+98,Sara,García Pérez,Mujer,23,Bilbao,Bizkaia,29378,2023-09-04,False,Normal
+99,Marta,Castro Jiménez,Hombre,73,Salamanca,Salamanca,40892,2024-06-29,False,Frecuente
+100,Lucía,Navarro Gómez,Mujer,36,Alicante,Alicante,50996,2024-03-29,True,Frecuente
+101,Marta,Castro Jiménez,Mujer,54,A Coruña,A Coruña,15031,2022-05-21,False,Frecuente
+102,Pablo,Martínez Vázquez,Mujer,75,León,León,15536,2022-06-26,True,Normal
+103,Lucía,Vázquez Moreno,Hombre,21,Pamplona,Navarra,01446,2022-07-17,True,Normal
+104,Pablo,Fernández Martín,Mujer,64,Alicante,Alicante,37683,2023-09-16,True,Normal
+105,Carlos,García Martín,Hombre,78,Santander,Cantabria,49555,2023-11-22,True,Ocasional
+106,Sergio,Romero Vázquez,Mujer,21,Gijón,Asturias,18618,2023-02-05,False,Normal
+107,Lucía,Sánchez Ortega,Hombre,37,Salamanca,Salamanca,07587,2023-04-16,True,Normal
+108,Daniel,Ortega Romero,Hombre,27,Alicante,Alicante,32480,2022-08-06,True,Normal
+109,Jorge,Díaz Gómez,Mujer,41,Salamanca,Salamanca,33994,2024-07-17,True,Normal
+110,Marta,Ruiz Díaz,Mujer,71,Bilbao,Bizkaia,21527,2023-09-24,True,Frecuente
+111,María,Fernández Ortega,Hombre,52,Valladolid,Valladolid,24569,2024-08-08,True,Normal
+112,Iván,López Navarro,Mujer,43,Salamanca,Salamanca,12151,2024-06-24,True,Frecuente
+113,Carlos,Moreno Martínez,Mujer,54,Logroño,La Rioja,06558,2022-06-24,True,Ocasional
+114,Rubén,Ortega Pérez,Mujer,55,A Coruña,A Coruña,45739,2022-01-23,False,Ocasional
+115,Andrea,Sánchez López,Hombre,38,Murcia,Murcia,33954,2022-08-23,True,Normal
+116,Sergio,Sánchez Jiménez,Hombre,71,Oviedo,Asturias,48448,2024-11-02,True,Ocasional
+117,Miguel,Pérez Ruiz,Mujer,57,Alicante,Alicante,48327,2024-07-17,True,Ocasional
+118,Laura,Jiménez Álvarez,Mujer,56,Logroño,La Rioja,44837,2023-06-07,False,Frecuente
+119,Ana,Fernández Díaz,Mujer,38,Salamanca,Salamanca,36303,2023-03-07,True,Ocasional
+120,Andrea,Moreno Vázquez,Hombre,27,Vigo,Pontevedra,35700,2024-03-03,True,Normal
+121,Iván,López Moreno,Hombre,55,A Coruña,A Coruña,28500,2023-06-17,True,Ocasional
+122,Miguel,Ortega Moreno,Mujer,63,Alicante,Alicante,03032,2024-09-05,False,Ocasional
+123,Andrea,Moreno Muñoz,Mujer,21,Santander,Cantabria,02252,2024-03-20,True,Normal
+124,Miguel,Torres Muñoz,Mujer,77,Valencia,Valencia,06509,2024-07-01,False,Frecuente
+125,Daniel,Ruiz Castro,Mujer,74,Pamplona,Navarra,38842,2024-05-20,True,Normal
+126,Iván,Álvarez Castro,Mujer,62,León,León,14900,2023-06-24,True,Normal
+127,Laura,Torres Álvarez,Mujer,37,Logroño,La Rioja,15523,2024-10-20,False,Ocasional
+128,Lucía,Vázquez Martínez,Hombre,34,Madrid,Madrid,02881,2022-08-15,True,Ocasional
+129,Marta,Castro Muñoz,Mujer,72,A Coruña,A Coruña,34037,2024-05-22,False,Frecuente
+130,Alejandro,Torres Martín,Hombre,24,Alicante,Alicante,02630,2024-06-10,False,Normal
+131,Lucía,Álvarez Castro,Mujer,21,Zaragoza,Zaragoza,21789,2024-11-02,False,Normal
+132,Claudia,Jiménez Moreno,Mujer,46,Bilbao,Bizkaia,23523,2022-07-29,True,Normal
+133,Sofía,Martín Vázquez,Hombre,31,Logroño,La Rioja,18958,2024-01-11,False,Frecuente
+134,Sofía,Fernández Pérez,Hombre,20,Alicante,Alicante,47151,2023-02-01,True,Normal
+135,Javier,Muñoz Vázquez,Hombre,41,Logroño,La Rioja,49920,2022-01-31,False,Ocasional
+136,Sofía,Gómez Castro,Hombre,54,Valencia,Valencia,44852,2024-06-16,False,Normal
+137,Sergio,Jiménez Sánchez,Mujer,33,Valencia,Valencia,02695,2023-10-11,False,Normal
+138,Carlos,Díaz Jiménez,Hombre,75,Pamplona,Navarra,15821,2022-11-25,True,Normal
+139,Jorge,Álvarez López,Mujer,72,Barcelona,Barcelona,04262,2024-08-09,True,Normal
+140,Rubén,Martínez Ruiz,Hombre,69,Logroño,La Rioja,02445,2023-09-13,True,Ocasional
+141,Rubén,Muñoz Castro,Mujer,21,Alicante,Alicante,17436,2022-06-11,False,Ocasional
+142,Javier,Fernández López,Mujer,73,Logroño,La Rioja,10949,2024-02-15,True,Normal
+143,Sofía,Sánchez Romero,Mujer,79,Gijón,Asturias,24963,2022-10-01,True,Normal
+144,Álvaro,Díaz García,Mujer,41,León,León,51818,2024-10-23,False,Normal
+145,Javier,Pérez Gómez,Mujer,51,Gijón,Asturias,30932,2024-11-17,True,Normal
+146,Paula,Vázquez Moreno,Mujer,47,Málaga,Málaga,07901,2022-11-22,True,Frecuente
+147,Ana,Ruiz Torres,Hombre,35,Bilbao,Bizkaia,52937,2024-07-28,True,Normal
+148,Paula,Martínez Ortega,Mujer,36,Zaragoza,Zaragoza,34487,2023-06-24,True,Normal
+149,Ana,Jiménez Sánchez,Hombre,48,Alicante,Alicante,09597,2023-05-03,True,Frecuente
+150,Iván,Pérez Martínez,Hombre,77,Burgos,Burgos,07855,2024-04-01,True,Normal
+151,Jorge,Fernández Moreno,Mujer,77,Sevilla,Sevilla,19678,2024-12-24,True,Ocasional
+152,Carmen,Torres Ortega,Hombre,36,Gijón,Asturias,09263,2022-12-22,True,Normal
+153,Carmen,Sánchez Vázquez,Mujer,66,A Coruña,A Coruña,48288,2022-08-23,False,Frecuente
+154,Pablo,Pérez Torres,Hombre,80,Sevilla,Sevilla,26805,2022-08-15,True,Normal
+155,Sergio,Moreno Castro,Mujer,63,Bilbao,Bizkaia,27143,2022-02-18,True,Ocasional
+156,Sergio,Ruiz Jiménez,Hombre,36,Málaga,Málaga,12874,2022-04-28,False,Normal
+157,Alejandro,Pérez Martínez,Mujer,39,Madrid,Madrid,28529,2022-02-23,True,Normal
+158,Laura,Martín Fernández,Mujer,41,Logroño,La Rioja,21866,2023-07-19,True,Normal
+159,Pablo,Fernández Martínez,Mujer,62,Logroño,La Rioja,15079,2024-12-03,False,Normal
+160,Andrea,Moreno Fernández,Mujer,29,Valencia,Valencia,50850,2022-02-22,False,Normal
+161,Álvaro,Muñoz Romero,Hombre,47,Bilbao,Bizkaia,08243,2023-07-12,False,Normal
+162,Alejandro,Gómez Fernández,Mujer,75,León,León,30872,2024-05-17,False,Normal
+163,Marta,Ruiz Martínez,Hombre,55,Barcelona,Barcelona,10018,2023-02-02,False,Normal
+164,María,Muñoz Pérez,Hombre,70,Madrid,Madrid,50500,2023-11-06,True,Normal
+165,Laura,Torres Gómez,Hombre,48,Pamplona,Navarra,13100,2023-01-22,False,Frecuente
+166,Elena,Álvarez Ruiz,Mujer,53,Murcia,Murcia,50459,2022-04-21,True,Ocasional
+167,Julia,Fernández Castro,Hombre,36,Vigo,Pontevedra,20800,2023-09-06,False,Normal
+168,David,Díaz Castro,Hombre,65,Pamplona,Navarra,27910,2022-01-17,True,Frecuente
+169,Lucía,García Moreno,Hombre,62,Málaga,Málaga,30437,2024-06-02,True,Frecuente
+170,Miguel,Castro López,Mujer,53,Málaga,Málaga,38588,2023-06-25,True,Normal
+171,David,Martínez Muñoz,Mujer,47,Alicante,Alicante,12001,2022-06-20,False,Normal
+172,Claudia,Castro Vázquez,Hombre,72,Vigo,Pontevedra,47675,2023-02-13,True,Frecuente
+173,Elena,Díaz Martín,Mujer,66,Vigo,Pontevedra,20942,2024-01-10,False,Normal
+174,Jorge,Martín Romero,Mujer,72,Logroño,La Rioja,21862,2024-05-07,False,Normal
+175,Carlos,Díaz García,Hombre,50,Salamanca,Salamanca,12669,2022-08-18,True,Normal
+176,Jorge,Martínez López,Hombre,35,A Coruña,A Coruña,16916,2022-04-29,False,Frecuente
+177,Álvaro,Torres Martín,Mujer,80,Pamplona,Navarra,11878,2024-02-23,False,Normal
+178,Carlos,Gómez Martínez,Hombre,69,Salamanca,Salamanca,03985,2023-04-10,False,Normal
+179,Iván,Martín Navarro,Mujer,66,Santander,Cantabria,33369,2022-04-14,True,Ocasional
+180,Sofía,López Ruiz,Mujer,76,A Coruña,A Coruña,09112,2023-11-29,True,Frecuente
+181,Javier,Fernández Moreno,Mujer,45,Salamanca,Salamanca,42235,2022-06-24,True,Normal
+182,Miguel,Romero Álvarez,Mujer,76,Valencia,Valencia,19931,2024-01-15,True,Frecuente
+183,Ana,Sánchez Álvarez,Mujer,64,Oviedo,Asturias,28340,2023-10-27,False,Ocasional
+184,María,García Fernández,Mujer,28,Valencia,Valencia,01336,2022-02-02,True,Ocasional
+185,Paula,Martínez Sánchez,Hombre,74,Málaga,Málaga,43933,2022-02-24,False,Normal
+186,Miguel,Romero Sánchez,Hombre,77,Murcia,Murcia,20363,2023-06-03,True,Normal
+187,Carmen,Ortega Pérez,Mujer,71,Bilbao,Bizkaia,46536,2024-01-26,True,Ocasional
+188,Daniel,Castro Muñoz,Mujer,62,Málaga,Málaga,04968,2022-01-12,False,Normal
+189,Carlos,López Jiménez,Mujer,50,Barcelona,Barcelona,34678,2023-12-21,False,Normal
+190,Carlos,Ortega Romero,Hombre,34,Barcelona,Barcelona,52148,2023-07-09,True,Normal
+191,Iván,Díaz Álvarez,Mujer,23,Logroño,La Rioja,49400,2023-01-08,True,Frecuente
+192,Álvaro,Torres Gómez,Hombre,21,Madrid,Madrid,17279,2023-04-29,True,Ocasional
+193,David,Muñoz Ortega,Mujer,37,Pamplona,Navarra,04129,2024-08-30,True,Ocasional
+194,Rubén,Díaz Fernández,Mujer,65,Santander,Cantabria,39215,2023-09-15,True,Normal
+195,David,Fernández Gómez,Hombre,64,Santander,Cantabria,39897,2022-11-03,True,Normal
+196,Iván,Jiménez Pérez,Hombre,44,Burgos,Burgos,06850,2023-04-02,True,Normal
+197,Lucía,Fernández Torres,Mujer,32,León,León,21588,2022-06-09,False,Normal
+198,Claudia,Jiménez Fernández,Mujer,23,Málaga,Málaga,41214,2022-11-27,True,Ocasional
+199,David,Jiménez López,Mujer,64,Santander,Cantabria,12949,2024-02-15,True,Ocasional
+200,Iván,Martín Sánchez,Hombre,31,Pamplona,Navarra,09519,2022-08-13,True,Normal
+201,Sergio,Torres Sánchez,Hombre,77,Salamanca,Salamanca,27375,2024-09-09,False,Normal
+202,Sara,García García,Hombre,28,Valladolid,Valladolid,34082,2023-12-30,False,Frecuente
+203,Carmen,Díaz Martín,Hombre,56,Madrid,Madrid,12737,2024-12-04,True,Frecuente
+204,Carlos,Martín Moreno,Hombre,26,Murcia,Murcia,02134,2024-12-18,False,Ocasional
+205,Rubén,Ruiz Martínez,Hombre,43,León,León,11938,2023-10-06,True,Normal
+206,David,Gómez Muñoz,Mujer,33,Bilbao,Bizkaia,25486,2023-09-08,True,Frecuente
+207,Sofía,López Romero,Mujer,22,Pamplona,Navarra,49356,2022-07-14,True,Frecuente
+208,Carlos,López Díaz,Hombre,74,Alicante,Alicante,27096,2023-05-04,True,Normal
+209,Claudia,Vázquez Ruiz,Mujer,69,Bilbao,Bizkaia,42115,2022-06-06,False,Frecuente
+210,Pablo,Sánchez López,Mujer,78,Gijón,Asturias,06592,2023-09-02,False,Frecuente
+211,Marta,Moreno Álvarez,Hombre,27,Murcia,Murcia,19108,2023-02-16,True,Normal
+212,Carmen,Moreno Navarro,Mujer,67,A Coruña,A Coruña,18270,2023-04-16,False,Normal
+213,Sergio,Castro Ruiz,Hombre,20,León,León,28649,2023-05-31,True,Normal
+214,Carlos,Pérez Ruiz,Hombre,30,Murcia,Murcia,11997,2023-01-28,True,Normal
+215,Jorge,Fernández Moreno,Mujer,60,Santander,Cantabria,34489,2023-09-23,True,Normal
+216,Rubén,Moreno Jiménez,Hombre,66,León,León,10104,2023-08-31,True,Normal
+217,Laura,Castro García,Hombre,47,Alicante,Alicante,01870,2024-09-06,True,Normal
+218,Andrea,Sánchez Sánchez,Hombre,79,León,León,29684,2023-03-10,True,Normal
+219,Sara,Moreno Ortega,Hombre,71,Pamplona,Navarra,40519,2023-06-24,True,Normal
+220,Jorge,Torres Martín,Hombre,62,Zaragoza,Zaragoza,50649,2022-10-05,True,Ocasional
+221,Miguel,Torres Díaz,Hombre,23,A Coruña,A Coruña,35524,2022-08-21,False,Normal
+222,Sara,Ruiz Moreno,Hombre,34,Madrid,Madrid,31957,2022-12-28,True,Normal
+223,Álvaro,Torres García,Hombre,76,Oviedo,Asturias,34885,2022-01-26,False,Frecuente
+224,Julia,Romero Ortega,Mujer,62,León,León,45369,2024-11-14,True,Normal
+225,Jorge,Moreno Díaz,Mujer,68,Valladolid,Valladolid,36596,2023-05-22,False,Normal
+226,Miguel,Navarro Sánchez,Mujer,70,Zaragoza,Zaragoza,30866,2022-09-24,False,Normal
+227,Claudia,Castro Romero,Hombre,36,Logroño,La Rioja,31676,2023-04-06,False,Ocasional
+228,Daniel,Martín Sánchez,Hombre,59,Logroño,La Rioja,48764,2023-04-01,True,Normal
+229,Jorge,Torres Moreno,Mujer,52,Sevilla,Sevilla,51799,2024-12-27,False,Ocasional
+230,Ana,Sánchez Sánchez,Mujer,63,León,León,14878,2024-10-03,True,Normal
+231,Andrea,Navarro Torres,Mujer,43,Logroño,La Rioja,40760,2024-05-12,True,Normal
+232,Carmen,Pérez Torres,Hombre,68,León,León,28559,2023-05-06,True,Normal
+233,Elena,Martín Moreno,Mujer,22,Salamanca,Salamanca,47546,2024-12-08,True,Normal
+234,Claudia,Vázquez Romero,Mujer,46,Oviedo,Asturias,07771,2023-07-18,True,Normal
+235,Pablo,Moreno Romero,Hombre,54,Logroño,La Rioja,17526,2022-08-04,False,Frecuente
+236,Carlos,Romero Pérez,Mujer,37,Oviedo,Asturias,30896,2023-07-13,False,Normal
+237,Ana,Jiménez Moreno,Hombre,66,Murcia,Murcia,32923,2022-06-08,True,Normal
+238,Carlos,Muñoz Ortega,Hombre,38,Zaragoza,Zaragoza,52913,2023-05-04,False,Frecuente
+239,Álvaro,Romero Vázquez,Hombre,27,Alicante,Alicante,37203,2023-11-17,True,Normal
+240,Lucía,Ruiz Álvarez,Mujer,22,Salamanca,Salamanca,40390,2024-03-04,False,Frecuente
+241,Carlos,Navarro Fernández,Mujer,53,Zaragoza,Zaragoza,13852,2022-01-05,True,Ocasional
+242,Paula,Gómez Jiménez,Hombre,23,Murcia,Murcia,48574,2022-12-27,True,Ocasional
+243,Paula,Torres Sánchez,Mujer,43,Alicante,Alicante,44391,2023-04-04,False,Ocasional
+244,Miguel,Gómez Ortega,Mujer,21,Murcia,Murcia,02848,2022-09-05,False,Normal
+245,Julia,Álvarez García,Mujer,79,Madrid,Madrid,32027,2024-08-03,False,Frecuente
+246,Sergio,Romero López,Mujer,56,Pamplona,Navarra,36464,2023-02-26,False,Ocasional
+247,Andrea,Gómez Pérez,Hombre,56,Málaga,Málaga,35485,2022-01-15,False,Normal
+248,Elena,Jiménez Sánchez,Mujer,67,Salamanca,Salamanca,20456,2024-01-06,False,Ocasional
+249,Laura,Castro Sánchez,Hombre,52,Málaga,Málaga,10259,2022-10-04,False,Ocasional
+250,Marta,Navarro García,Hombre,18,Pamplona,Navarra,36554,2023-03-29,False,Ocasional
+251,Daniel,Martín Torres,Mujer,41,Pamplona,Navarra,47922,2023-08-21,True,Normal
+252,Lucía,Vázquez Castro,Hombre,74,Murcia,Murcia,14409,2023-03-22,False,Normal
+253,Iván,Vázquez Álvarez,Mujer,53,Málaga,Málaga,04791,2022-07-29,True,Ocasional
+254,Claudia,Ortega Moreno,Mujer,23,Gijón,Asturias,26864,2023-12-15,False,Normal
+255,Marta,Gómez Ruiz,Hombre,58,Madrid,Madrid,37639,2022-10-29,False,Frecuente
+256,Laura,López Ortega,Hombre,71,Murcia,Murcia,35574,2022-01-03,False,Normal
+257,Jorge,Vázquez Vázquez,Hombre,63,Oviedo,Asturias,18888,2024-09-16,False,Ocasional
+258,María,Ruiz Díaz,Hombre,77,Sevilla,Sevilla,20692,2023-06-04,False,Normal
+259,Alejandro,Gómez Fernández,Mujer,61,Pamplona,Navarra,24501,2023-05-08,True,Normal
+260,Álvaro,Torres Vázquez,Mujer,77,Alicante,Alicante,14304,2023-09-12,False,Frecuente
+261,Alejandro,Álvarez Gómez,Mujer,74,Murcia,Murcia,28527,2022-11-27,True,Normal
+262,Marta,López Romero,Hombre,48,Vigo,Pontevedra,19074,2022-11-29,True,Ocasional
+263,Marta,Moreno Díaz,Hombre,37,León,León,16549,2022-02-19,True,Frecuente
+264,Rubén,Muñoz Vázquez,Hombre,41,Vigo,Pontevedra,30963,2024-05-12,True,Normal
+265,Javier,Fernández Moreno,Mujer,42,A Coruña,A Coruña,26920,2022-09-29,True,Ocasional
+266,Ana,López Pérez,Hombre,53,Burgos,Burgos,31826,2023-08-03,False,Normal
+267,Sofía,Sánchez Ortega,Mujer,38,Burgos,Burgos,37071,2023-07-14,True,Normal
+268,Iván,Díaz Muñoz,Hombre,47,Barcelona,Barcelona,17061,2023-11-27,True,Normal
+269,Rubén,Martín Ortega,Mujer,41,Valencia,Valencia,29810,2023-03-22,True,Normal
+270,Elena,Moreno Navarro,Mujer,61,Madrid,Madrid,48966,2024-10-13,True,Normal
+271,Rubén,Gómez Vázquez,Hombre,59,Valencia,Valencia,23800,2022-12-23,False,Ocasional
+272,Carmen,Romero Ruiz,Hombre,47,Burgos,Burgos,51656,2022-10-01,True,Ocasional
+273,Sergio,Torres Martín,Mujer,39,Sevilla,Sevilla,44423,2024-11-08,True,Ocasional
+274,Paula,Martínez Vázquez,Mujer,45,Salamanca,Salamanca,42692,2022-11-07,True,Ocasional
+275,Laura,Muñoz García,Hombre,24,Vigo,Pontevedra,10940,2024-05-19,True,Normal
+276,Ana,Vázquez Martín,Hombre,52,Pamplona,Navarra,04924,2024-06-04,True,Normal
+277,Iván,García Pérez,Mujer,72,A Coruña,A Coruña,29054,2022-06-03,True,Normal
+278,Marta,Navarro Sánchez,Hombre,45,León,León,10783,2023-09-12,False,Normal
+279,Lucía,Muñoz Romero,Mujer,31,Madrid,Madrid,38253,2024-06-01,False,Normal
+280,Daniel,Ruiz Romero,Mujer,73,Málaga,Málaga,46397,2024-03-07,True,Normal
+281,Sofía,Moreno Fernández,Hombre,27,Salamanca,Salamanca,14233,2022-05-05,False,Ocasional
+282,Ana,Fernández García,Hombre,33,Vigo,Pontevedra,46669,2023-09-11,True,Normal
+283,Carlos,López Díaz,Hombre,33,Logroño,La Rioja,25484,2022-09-02,True,Normal
+284,Marta,Ruiz Ruiz,Hombre,71,Oviedo,Asturias,26068,2024-04-27,False,Frecuente
+285,Álvaro,Fernández Vázquez,Hombre,48,Barcelona,Barcelona,01191,2023-03-26,True,Normal
+286,Miguel,Muñoz Vázquez,Mujer,59,Logroño,La Rioja,26074,2024-07-18,False,Frecuente
+287,Iván,Muñoz Torres,Mujer,42,Valladolid,Valladolid,05917,2023-06-04,True,Normal
+288,Marta,Vázquez Martín,Hombre,30,Barcelona,Barcelona,39599,2022-12-28,True,Normal
+289,Sergio,López Romero,Hombre,23,Salamanca,Salamanca,26832,2022-01-08,True,Normal
+290,Jorge,Gómez Martín,Hombre,61,Zaragoza,Zaragoza,43928,2023-04-23,False,Normal
+291,Lucía,Álvarez Torres,Mujer,26,Murcia,Murcia,21706,2023-05-10,False,Frecuente
+292,Carlos,Ortega Moreno,Hombre,62,Valladolid,Valladolid,14682,2024-04-12,False,Frecuente
+293,Sofía,Torres Martín,Hombre,53,Alicante,Alicante,27762,2024-11-28,True,Ocasional
+294,Paula,Moreno Álvarez,Mujer,73,Burgos,Burgos,24383,2023-08-16,True,Normal
+295,Sergio,Navarro Martínez,Mujer,60,Salamanca,Salamanca,28796,2022-07-06,True,Frecuente
+296,Claudia,Moreno García,Hombre,37,Logroño,La Rioja,24666,2024-01-24,True,Normal
+297,Julia,Romero García,Hombre,35,Oviedo,Asturias,26662,2022-04-03,False,Normal
+298,Laura,Ruiz Castro,Hombre,75,Bilbao,Bizkaia,46159,2022-03-27,True,Normal
+299,Marta,Gómez Navarro,Mujer,60,A Coruña,A Coruña,35642,2024-12-03,False,Normal
+300,Álvaro,Ortega Álvarez,Hombre,74,Santander,Cantabria,42830,2022-05-17,False,Frecuente
+301,Ana,Sánchez Navarro,Hombre,38,Barcelona,Barcelona,38531,2023-02-25,True,Frecuente
+302,Sergio,García Sánchez,Hombre,21,Santander,Cantabria,11234,2022-03-15,False,Normal
+303,Daniel,Torres Jiménez,Mujer,67,Bilbao,Bizkaia,10221,2022-06-20,True,Normal
+304,María,López Fernández,Mujer,50,Gijón,Asturias,12410,2022-06-19,True,Normal
+305,Daniel,Muñoz Vázquez,Hombre,44,Pamplona,Navarra,15519,2024-05-21,True,Normal
+306,Miguel,Álvarez Pérez,Hombre,24,Barcelona,Barcelona,02051,2022-11-18,True,Ocasional
+307,Julia,Vázquez Jiménez,Mujer,23,León,León,45993,2023-04-01,True,Normal
+308,Carlos,Martínez García,Mujer,80,Logroño,La Rioja,10765,2024-08-01,True,Normal
+309,María,Vázquez Jiménez,Mujer,32,Málaga,Málaga,12382,2024-02-29,True,Normal
+310,David,Sánchez Navarro,Mujer,35,Bilbao,Bizkaia,13580,2023-09-05,True,Normal
+311,Marta,Navarro Muñoz,Mujer,49,Zaragoza,Zaragoza,33323,2024-06-07,False,Normal
+312,Laura,García Jiménez,Mujer,73,Madrid,Madrid,45757,2022-12-15,False,Frecuente
+313,Sofía,Álvarez Muñoz,Mujer,28,Murcia,Murcia,12939,2022-01-10,True,Frecuente
+314,Ana,Romero Jiménez,Mujer,37,Vigo,Pontevedra,52257,2024-01-10,True,Ocasional
+315,Claudia,Jiménez Díaz,Mujer,41,Sevilla,Sevilla,30964,2023-10-29,False,Ocasional
+316,Sofía,Romero Martínez,Hombre,32,León,León,01307,2023-06-30,True,Normal
+317,Carmen,Torres Fernández,Hombre,65,Santander,Cantabria,04359,2022-05-09,False,Normal
+318,María,Martínez Pérez,Hombre,24,Zaragoza,Zaragoza,30648,2023-08-24,True,Frecuente
+319,Marta,Moreno Álvarez,Mujer,38,Burgos,Burgos,36944,2023-08-28,True,Frecuente
+320,Pablo,Sánchez Martínez,Hombre,59,Valencia,Valencia,35019,2022-11-23,True,Normal
+321,Iván,Sánchez Pérez,Mujer,43,Bilbao,Bizkaia,39134,2024-09-06,True,Normal
+322,Andrea,Díaz Castro,Mujer,61,Murcia,Murcia,28323,2023-02-08,False,Normal
+323,Laura,Pérez Pérez,Hombre,73,Logroño,La Rioja,51669,2023-09-21,True,Normal
+324,Rubén,Gómez Fernández,Mujer,31,Santander,Cantabria,07226,2023-12-19,False,Normal
+325,Andrea,Álvarez Vázquez,Hombre,74,Málaga,Málaga,22689,2024-11-06,False,Ocasional
+326,Julia,Díaz Muñoz,Hombre,54,Barcelona,Barcelona,31971,2022-10-01,True,Normal
+327,Lucía,Muñoz Jiménez,Hombre,75,Bilbao,Bizkaia,26954,2023-11-16,False,Normal
+328,Claudia,Fernández Castro,Mujer,38,Bilbao,Bizkaia,25423,2022-04-26,True,Normal
+329,Paula,Gómez Muñoz,Hombre,35,Málaga,Málaga,31391,2024-05-10,True,Normal
+330,Lucía,Ortega Díaz,Mujer,22,Vigo,Pontevedra,15330,2023-11-24,False,Normal
+331,Daniel,Martínez García,Hombre,20,Logroño,La Rioja,05891,2022-11-20,True,Normal
+332,María,Martín Gómez,Hombre,40,Pamplona,Navarra,05992,2024-08-18,True,Normal
+333,Laura,Ortega Romero,Hombre,43,Zaragoza,Zaragoza,02961,2022-04-24,True,Frecuente
+334,Elena,Castro García,Mujer,54,Gijón,Asturias,13497,2024-12-17,True,Frecuente
+335,Miguel,Muñoz Moreno,Mujer,41,Valencia,Valencia,33551,2022-06-03,False,Frecuente
+336,Elena,Álvarez Gómez,Mujer,66,Madrid,Madrid,11848,2022-11-11,False,Frecuente
+337,Sofía,Ruiz Romero,Hombre,36,Oviedo,Asturias,14255,2024-11-30,False,Ocasional
+338,Carlos,Díaz Castro,Hombre,68,Barcelona,Barcelona,05567,2022-04-15,False,Normal
+339,Iván,Fernández García,Mujer,42,Sevilla,Sevilla,49847,2022-12-20,True,Normal
+340,Marta,Jiménez Torres,Mujer,38,Oviedo,Asturias,40281,2024-10-12,True,Frecuente
+341,Rubén,Torres Torres,Mujer,29,Valencia,Valencia,49003,2024-01-03,True,Normal
+342,Carmen,López López,Mujer,74,Sevilla,Sevilla,21389,2023-12-10,True,Normal
+343,Miguel,Pérez Moreno,Mujer,78,Madrid,Madrid,45523,2023-10-13,True,Frecuente
+344,Laura,Sánchez Pérez,Mujer,58,Madrid,Madrid,44919,2024-04-03,False,Normal
+345,Julia,Sánchez Díaz,Hombre,50,Vigo,Pontevedra,17567,2024-08-04,True,Normal
+346,Pablo,Romero López,Mujer,67,A Coruña,A Coruña,04358,2023-10-23,True,Normal
+347,David,Torres Martín,Hombre,70,Salamanca,Salamanca,23999,2022-04-09,True,Normal
+348,Alejandro,Jiménez Álvarez,Hombre,21,Valladolid,Valladolid,43358,2023-08-11,False,Frecuente
+349,Iván,López Álvarez,Mujer,80,Burgos,Burgos,11988,2022-10-09,False,Normal
+350,Sofía,Ortega Ruiz,Mujer,59,Bilbao,Bizkaia,41446,2023-02-07,True,Normal
+351,Elena,Torres Fernández,Hombre,74,Zaragoza,Zaragoza,32521,2023-12-01,True,Normal
+352,Lucía,Ruiz Álvarez,Mujer,24,Vigo,Pontevedra,06698,2022-07-18,False,Ocasional
+353,Julia,López Jiménez,Mujer,39,Zaragoza,Zaragoza,02273,2022-11-23,True,Normal
+354,Carmen,Vázquez López,Hombre,72,León,León,28543,2022-06-03,True,Frecuente
+355,Carmen,Vázquez Martín,Hombre,50,León,León,32349,2023-07-06,False,Frecuente
+356,María,Torres Navarro,Hombre,34,Santander,Cantabria,12241,2023-02-09,False,Normal
+357,Paula,López Fernández,Mujer,41,Sevilla,Sevilla,51248,2023-04-07,True,Frecuente
+358,Álvaro,López Pérez,Hombre,78,Pamplona,Navarra,10497,2022-05-12,False,Normal
+359,Paula,Pérez Moreno,Mujer,78,Barcelona,Barcelona,42875,2024-03-01,False,Ocasional
+360,Sofía,Muñoz Sánchez,Hombre,51,Gijón,Asturias,33703,2024-05-23,True,Normal
+361,Elena,Romero Fernández,Hombre,45,A Coruña,A Coruña,45041,2022-03-25,False,Normal
+362,Laura,Jiménez Navarro,Hombre,75,Málaga,Málaga,32954,2024-01-24,False,Normal
+363,David,Martínez Sánchez,Mujer,60,Santander,Cantabria,09002,2023-09-20,False,Normal
+364,Carmen,Álvarez Romero,Mujer,58,Madrid,Madrid,05247,2022-08-09,False,Normal
+365,Alejandro,Sánchez Moreno,Hombre,56,Valencia,Valencia,42988,2023-07-07,True,Ocasional
+366,Laura,Fernández Martínez,Hombre,39,León,León,22698,2022-04-22,True,Normal
+367,Laura,Díaz Romero,Hombre,66,Murcia,Murcia,20738,2023-09-07,True,Ocasional
+368,Sergio,Jiménez Díaz,Mujer,34,Burgos,Burgos,11703,2024-07-12,True,Ocasional
+369,David,López Navarro,Hombre,51,Sevilla,Sevilla,49240,2023-04-20,True,Frecuente
+370,Ana,Jiménez Pérez,Mujer,23,Bilbao,Bizkaia,50422,2024-04-15,False,Frecuente
+371,Jorge,López Álvarez,Hombre,63,Zaragoza,Zaragoza,18570,2022-09-28,False,Frecuente
+372,Claudia,Fernández Vázquez,Hombre,23,Murcia,Murcia,13392,2023-02-25,False,Frecuente
+373,Andrea,Moreno Moreno,Hombre,51,Valencia,Valencia,45724,2023-12-08,False,Frecuente
+374,Jorge,Ruiz Díaz,Hombre,18,Alicante,Alicante,33299,2022-02-09,False,Normal
+375,Pablo,Jiménez Muñoz,Hombre,27,Zaragoza,Zaragoza,16641,2022-07-08,True,Frecuente
+376,Paula,Romero Díaz,Hombre,38,Valladolid,Valladolid,14998,2024-09-20,True,Normal
+377,Paula,Martín Navarro,Mujer,22,Salamanca,Salamanca,07305,2023-06-20,True,Ocasional
+378,Sara,Sánchez Romero,Hombre,19,Burgos,Burgos,33726,2024-10-24,False,Frecuente
+379,Paula,Díaz Romero,Mujer,39,Santander,Cantabria,19782,2022-10-17,True,Ocasional
+380,David,Fernández Martínez,Hombre,65,Vigo,Pontevedra,13721,2023-03-09,False,Normal
+381,Sergio,Romero Díaz,Hombre,74,Valladolid,Valladolid,40763,2023-04-16,True,Frecuente
+382,Marta,Pérez Castro,Mujer,19,Sevilla,Sevilla,13427,2023-09-20,False,Normal
+383,María,Martín Romero,Hombre,27,Sevilla,Sevilla,47550,2022-10-06,False,Normal
+384,Rubén,Sánchez Martínez,Mujer,51,Valladolid,Valladolid,21566,2024-05-26,False,Ocasional
+385,Carlos,Navarro Muñoz,Mujer,33,Sevilla,Sevilla,03230,2023-08-04,False,Normal
+386,María,Vázquez Castro,Hombre,65,Bilbao,Bizkaia,07511,2024-05-12,False,Ocasional
+387,Jorge,Pérez Fernández,Mujer,68,Santander,Cantabria,50280,2022-09-11,False,Normal
+388,Miguel,Sánchez Álvarez,Mujer,78,Valencia,Valencia,43229,2022-06-30,False,Frecuente
+389,María,Navarro Martínez,Hombre,56,Burgos,Burgos,27177,2023-11-12,False,Normal
+390,Carlos,Muñoz Navarro,Mujer,39,Logroño,La Rioja,05765,2024-04-04,False,Ocasional
+391,Rubén,Sánchez Ortega,Hombre,29,León,León,21354,2023-12-01,True,Ocasional
+392,Lucía,Muñoz Álvarez,Hombre,41,Murcia,Murcia,24929,2023-07-20,True,Normal
+393,David,Torres Romero,Hombre,64,Vigo,Pontevedra,29820,2023-11-11,True,Normal
+394,Alejandro,Vázquez López,Hombre,57,A Coruña,A Coruña,47040,2023-01-26,True,Normal
+395,Paula,Martín Martín,Mujer,55,León,León,30523,2022-07-31,True,Normal
+396,Paula,Muñoz Navarro,Hombre,77,Murcia,Murcia,06552,2023-01-19,False,Ocasional
+397,Sergio,Castro Ruiz,Hombre,76,Gijón,Asturias,01627,2022-12-08,False,Ocasional
+398,Sara,López Martínez,Mujer,27,Valencia,Valencia,12989,2024-04-23,False,Normal
+399,Sergio,Martín Vázquez,Hombre,52,Sevilla,Sevilla,14780,2024-11-27,True,Normal
+400,Marta,Fernández Fernández,Hombre,68,Sevilla,Sevilla,07589,2023-02-24,True,Normal
+401,Marta,Martín Torres,Mujer,80,Logroño,La Rioja,35812,2024-01-21,True,Frecuente
+402,Carmen,Muñoz Muñoz,Mujer,66,León,León,29128,2022-11-02,True,Ocasional
+403,Sara,Muñoz Martínez,Mujer,49,Murcia,Murcia,46939,2023-12-03,True,Normal
+404,Sergio,García Díaz,Mujer,24,Barcelona,Barcelona,52493,2024-05-18,True,Ocasional
+405,Paula,Pérez Gómez,Mujer,38,Murcia,Murcia,39652,2023-06-21,False,Normal
+406,Andrea,Castro Moreno,Mujer,37,Salamanca,Salamanca,28790,2022-07-25,False,Ocasional
+407,Daniel,Navarro Ruiz,Mujer,43,Bilbao,Bizkaia,41953,2023-05-11,True,Normal
+408,Carlos,Martín Gómez,Hombre,80,Valladolid,Valladolid,01249,2024-12-06,True,Frecuente
+409,Carlos,García Muñoz,Mujer,21,Barcelona,Barcelona,20309,2023-05-19,True,Ocasional
+410,María,Navarro Gómez,Mujer,63,Murcia,Murcia,51126,2024-11-11,True,Frecuente
+411,Daniel,Jiménez Torres,Mujer,69,Salamanca,Salamanca,26901,2022-08-01,False,Normal
+412,Sara,Muñoz Ruiz,Hombre,39,León,León,24576,2022-11-06,True,Ocasional
+413,Ana,Díaz Ruiz,Hombre,32,Alicante,Alicante,32508,2023-10-23,True,Ocasional
+414,Marta,Muñoz Martínez,Mujer,73,Málaga,Málaga,10175,2024-01-23,True,Normal
+415,Jorge,Ruiz Ortega,Mujer,57,Málaga,Málaga,26464,2022-09-29,True,Normal
+416,María,Martínez Martínez,Mujer,38,Zaragoza,Zaragoza,17260,2024-07-26,False,Normal
+417,Laura,Pérez Gómez,Hombre,32,Oviedo,Asturias,36440,2022-02-01,False,Normal
+418,Rubén,Gómez García,Hombre,39,Valencia,Valencia,30546,2023-03-19,False,Normal
+419,María,Sánchez Moreno,Mujer,69,Salamanca,Salamanca,41047,2022-06-11,True,Normal
+420,Ana,Díaz Muñoz,Hombre,45,Madrid,Madrid,42430,2024-02-06,True,Normal
+421,Álvaro,Muñoz Ruiz,Mujer,31,Bilbao,Bizkaia,02987,2022-09-11,True,Normal
+422,Lucía,Castro Romero,Hombre,44,Murcia,Murcia,50242,2023-06-05,False,Normal
+423,Andrea,Ruiz Muñoz,Hombre,78,Vigo,Pontevedra,26105,2024-09-03,True,Frecuente
+424,Laura,Ruiz Jiménez,Mujer,58,Barcelona,Barcelona,13948,2022-01-10,True,Normal
+425,Andrea,Díaz Jiménez,Mujer,57,Zaragoza,Zaragoza,14026,2023-12-27,False,Frecuente
+426,María,Gómez Romero,Mujer,75,Valencia,Valencia,03773,2023-05-20,False,Normal
+427,Álvaro,Vázquez Ruiz,Mujer,45,Salamanca,Salamanca,46927,2024-02-24,True,Normal
+428,Marta,Martínez Ruiz,Hombre,43,León,León,10878,2023-03-12,True,Ocasional
+429,Claudia,Fernández Martín,Hombre,66,Bilbao,Bizkaia,43946,2022-06-02,True,Normal
+430,Carlos,Álvarez Navarro,Hombre,80,Burgos,Burgos,11377,2024-07-05,False,Frecuente
+431,Ana,Muñoz Torres,Mujer,19,Pamplona,Navarra,08347,2024-05-18,True,Frecuente
+432,Claudia,Moreno Sánchez,Hombre,42,Salamanca,Salamanca,34776,2024-01-23,False,Normal
+433,Iván,Gómez Martínez,Mujer,73,Sevilla,Sevilla,04783,2023-07-17,True,Normal
+434,Daniel,Fernández Vázquez,Hombre,79,Oviedo,Asturias,05298,2023-05-04,False,Frecuente
+435,Iván,Muñoz Castro,Mujer,20,Pamplona,Navarra,05668,2024-06-13,False,Frecuente
+436,Carlos,Álvarez Martínez,Mujer,25,Sevilla,Sevilla,21671,2022-04-14,True,Normal
+437,Paula,Torres Gómez,Hombre,61,León,León,35820,2024-10-21,False,Frecuente
+438,Laura,Jiménez Ruiz,Mujer,50,Sevilla,Sevilla,35484,2024-10-03,True,Ocasional
+439,Carlos,Torres Vázquez,Mujer,59,Valencia,Valencia,34078,2023-02-11,False,Normal
+440,Ana,Martín Castro,Hombre,69,Salamanca,Salamanca,48159,2022-06-16,False,Frecuente
+441,Julia,Fernández Martínez,Mujer,52,Barcelona,Barcelona,21922,2023-05-24,True,Frecuente
+442,Claudia,Muñoz Ruiz,Mujer,23,Zaragoza,Zaragoza,35028,2022-11-09,False,Ocasional
+443,Lucía,López García,Mujer,56,Murcia,Murcia,46925,2024-02-02,False,Normal
+444,Sergio,Navarro Vázquez,Hombre,69,Vigo,Pontevedra,21316,2023-11-12,True,Normal
+445,Sergio,Pérez Sánchez,Hombre,40,Málaga,Málaga,12460,2023-04-22,True,Ocasional
+446,Ana,Castro Romero,Mujer,42,Zaragoza,Zaragoza,17968,2022-03-14,False,Ocasional
+447,Ana,Gómez Torres,Hombre,76,Oviedo,Asturias,31266,2023-08-05,False,Ocasional
+448,Sofía,Ruiz López,Mujer,67,Sevilla,Sevilla,31209,2022-09-19,True,Normal
+449,Laura,Jiménez Moreno,Mujer,60,León,León,25000,2022-09-02,True,Normal
+450,Daniel,Fernández Fernández,Mujer,36,A Coruña,A Coruña,15011,2023-07-15,True,Frecuente
+451,Sofía,Romero García,Mujer,22,Logroño,La Rioja,03866,2022-06-24,True,Normal
+452,Andrea,Sánchez Torres,Mujer,68,Alicante,Alicante,48133,2022-04-19,True,Normal
+453,Paula,Martínez Navarro,Hombre,28,Málaga,Málaga,06898,2022-07-02,False,Normal
+454,Marta,Ortega Sánchez,Mujer,73,Santander,Cantabria,19395,2022-07-11,True,Ocasional
+455,Marta,Martínez Romero,Hombre,29,León,León,40019,2022-03-06,False,Frecuente
+456,Paula,Vázquez López,Hombre,27,Salamanca,Salamanca,38707,2024-08-20,True,Normal
+457,Rubén,Martínez Gómez,Mujer,25,Salamanca,Salamanca,05006,2024-05-13,True,Frecuente
+458,Carlos,Torres Díaz,Mujer,41,Gijón,Asturias,35393,2023-01-04,True,Normal
+459,David,Moreno Ruiz,Hombre,77,Málaga,Málaga,11956,2024-04-30,True,Frecuente
+460,Sofía,Torres Jiménez,Hombre,45,Málaga,Málaga,51042,2022-02-12,False,Frecuente
+461,Julia,Ruiz Álvarez,Hombre,58,A Coruña,A Coruña,31663,2023-05-03,False,Frecuente
+462,Claudia,García Muñoz,Mujer,53,Santander,Cantabria,07078,2022-03-19,False,Normal
+463,Paula,Vázquez Fernández,Hombre,54,Valencia,Valencia,30631,2024-04-05,False,Normal
+464,Pablo,Vázquez López,Mujer,38,Santander,Cantabria,31140,2023-11-05,False,Normal
+465,Jorge,Álvarez Gómez,Mujer,25,Zaragoza,Zaragoza,42691,2023-12-02,True,Ocasional
+466,María,Romero Vázquez,Mujer,72,Madrid,Madrid,04961,2024-01-29,False,Normal
+467,Carlos,Moreno López,Hombre,26,Vigo,Pontevedra,30277,2023-12-29,False,Normal
+468,Paula,Martínez Ruiz,Mujer,64,Zaragoza,Zaragoza,52656,2024-07-13,True,Ocasional
+469,Sofía,López Gómez,Mujer,32,Salamanca,Salamanca,42574,2024-06-20,False,Normal
+470,Julia,Ortega Jiménez,Mujer,65,Burgos,Burgos,32417,2024-06-07,True,Ocasional
+471,Julia,Moreno Torres,Mujer,63,León,León,23484,2024-09-19,True,Frecuente
+472,Ana,Gómez Díaz,Mujer,57,Salamanca,Salamanca,19103,2022-12-05,False,Ocasional
+473,Javier,Díaz Gómez,Hombre,35,Alicante,Alicante,30345,2022-07-12,True,Frecuente
+474,Ana,García Álvarez,Mujer,59,Burgos,Burgos,47326,2022-10-10,True,Ocasional
+475,Laura,Pérez Castro,Mujer,77,Salamanca,Salamanca,40454,2023-01-25,False,Normal
+476,Iván,Romero Martínez,Hombre,37,Vigo,Pontevedra,02587,2024-09-26,False,Ocasional
+477,Laura,Romero Pérez,Mujer,23,Vigo,Pontevedra,43571,2023-06-09,True,Frecuente
+478,Paula,Castro Ruiz,Hombre,29,Valencia,Valencia,51048,2023-10-21,False,Normal
+479,Andrea,Díaz Gómez,Mujer,19,Oviedo,Asturias,22031,2023-12-17,True,Ocasional
+480,Miguel,Fernández Muñoz,Hombre,24,Murcia,Murcia,27212,2024-06-09,True,Normal
+481,Elena,Álvarez Álvarez,Hombre,33,Bilbao,Bizkaia,11350,2023-03-28,False,Normal
+482,Álvaro,Fernández Martínez,Mujer,20,Gijón,Asturias,19816,2023-03-04,False,Normal
+483,Sergio,Martínez Martín,Mujer,62,Logroño,La Rioja,21288,2024-11-11,True,Normal
+484,David,Torres Sánchez,Mujer,20,Pamplona,Navarra,30432,2024-06-01,False,Normal
+485,Paula,López García,Hombre,44,A Coruña,A Coruña,45222,2022-11-09,False,Normal
+486,Elena,Muñoz Martínez,Hombre,67,Murcia,Murcia,49617,2024-04-19,True,Ocasional
+487,Álvaro,Jiménez López,Hombre,60,León,León,07837,2023-06-03,True,Frecuente
+488,Sofía,Gómez Jiménez,Mujer,57,León,León,35217,2023-01-10,True,Normal
+489,Rubén,Romero Martín,Hombre,55,León,León,21884,2023-03-27,False,Ocasional
+490,María,Díaz García,Hombre,50,Madrid,Madrid,06454,2024-10-11,False,Ocasional
+491,David,Ortega Pérez,Mujer,45,Pamplona,Navarra,10424,2023-08-18,False,Normal
+492,Laura,Fernández Jiménez,Hombre,18,Salamanca,Salamanca,37885,2023-05-15,False,Normal
+493,Alejandro,Romero Gómez,Hombre,72,Santander,Cantabria,42637,2023-04-09,False,Normal
+494,David,Álvarez Martínez,Mujer,25,Bilbao,Bizkaia,44618,2022-04-23,True,Frecuente
+495,Ana,Ortega Muñoz,Hombre,54,Sevilla,Sevilla,19412,2024-11-01,True,Normal
+496,Álvaro,Díaz Torres,Mujer,49,Murcia,Murcia,48111,2022-11-27,True,Normal
+497,Rubén,López Fernández,Mujer,77,Vigo,Pontevedra,40613,2022-05-20,True,Normal
+498,Jorge,Torres Sánchez,Mujer,65,Alicante,Alicante,21142,2024-06-20,False,Frecuente
+499,María,Moreno Moreno,Mujer,60,Gijón,Asturias,38392,2023-06-01,False,Ocasional
+500,Álvaro,Romero Martín,Mujer,54,Burgos,Burgos,09848,2023-07-23,True,Ocasional

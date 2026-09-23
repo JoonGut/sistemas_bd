@@ -1,0 +1,151 @@
+﻿id_producto,nombre,categoria,marca,precio,coste
+1,Barra,Panadería,Casa Tarradellas,8.49,4.38
+2,Snacks perro,Mascotas,Casa Tarradellas,9.92,6.73
+3,Detergente,Limpieza,Pascual,5.45,2.48
+4,Calamares,Pescados,Font Vella,14.94,9.11
+5,Turrón,Dulces,Font Vella,4.37,2.18
+6,Toallitas,Bebé,Nestlé,6.99,5.09
+7,Papel higiénico,Higiene,Campofrío,4.47,2.17
+8,Brócoli,Verduras,Hero,0.92,0.61
+9,Patata,Verduras,Central Lechera Asturiana,5.73,3.27
+10,Leche infantil,Bebé,ElPozo,6.84,3.98
+11,Fanta,Bebidas,Nestlé,1.56,0.87
+12,Lejía,Limpieza,Pascual,3.84,2.18
+13,Cerdo,Carnes,Bimbo,18.52,9.2
+14,Gominolas,Dulces,Casa Tarradellas,7.25,3.47
+15,Galletas,Desayuno,Gallina Blanca,3.47,2.43
+16,Vino,Bebidas,Bimbo,7.4,4.74
+17,Palomitas,Snacks,Font Vella,3.49,1.62
+18,Langostinos,Pescados,Campofrío,15.7,10.95
+19,Limpiacristales,Limpieza,Coca-Cola,14.32,7.46
+20,Tomate triturado,Conservas,Casa Tarradellas,9.19,4.83
+21,Uva,Frutas,ElPozo,5.7,3.03
+22,Gominolas,Dulces,Coca-Cola,3.59,1.66
+23,Lechuga,Verduras,Hero,7.27,4.79
+24,Snacks perro,Mascotas,SuperData,11.74,6.5
+25,Pan de semillas,Panadería,Danone,9.49,5.41
+26,Papilla,Bebé,Hero,8.45,5.78
+27,Frutos secos,Snacks,Bimbo,6.77,4.44
+28,Queso,Lácteos,Gallina Blanca,2.38,1.12
+29,Limpiacristales,Limpieza,Central Lechera Asturiana,9.56,5.5
+30,Maíz,Conservas,Casa Tarradellas,5.87,3.42
+31,Caramelos,Dulces,Gallina Blanca,7.06,3.9
+32,Pienso perro,Mascotas,Gallina Blanca,10.94,6.9
+33,Pera,Frutas,Danone,2.73,1.91
+34,Molde,Panadería,Campofrío,1.79,0.93
+35,Toallitas,Bebé,Bimbo,3.43,2.5
+36,Verduras congeladas,Congelados,SuperData,0.59,0.42
+37,Helado,Congelados,Coca-Cola,7.93,4.31
+38,Snacks perro,Mascotas,Font Vella,10.06,5.73
+39,Zumo,Bebidas,Nestlé,1.25,0.76
+40,Arena gato,Mascotas,ElPozo,13.85,7.79
+41,Cepillo dientes,Higiene,Bimbo,4.4,2.2
+42,Pienso perro,Mascotas,SuperData,5.71,3.97
+43,Salmón,Pescados,Central Lechera Asturiana,11.2,6.17
+44,Aceitunas,Conservas,Campofrío,2.51,1.7
+45,Lavavajillas,Limpieza,Bimbo,12.11,8.09
+46,Snacks perro,Mascotas,Central Lechera Asturiana,4.94,3.07
+47,Pañales,Bebé,Hero,13.93,8.56
+48,Frutos secos,Snacks,Nestlé,4.38,2.86
+49,Calamares,Pescados,Central Lechera Asturiana,13.36,7.36
+50,Mandarina,Frutas,Hero,6.59,3.48
+51,Baguette,Panadería,Central Lechera Asturiana,3.46,1.68
+52,Patata,Verduras,Coca-Cola,2.79,1.82
+53,Frutos secos,Snacks,Gallina Blanca,5.68,2.74
+54,Bacalao,Pescados,Campofrío,15.81,8.82
+55,Gominolas,Dulces,Casa Tarradellas,9.9,4.54
+56,Doritos,Snacks,Campofrío,1.61,0.81
+57,Snacks perro,Mascotas,Danone,9.93,7.05
+58,Brócoli,Verduras,Pascual,7.8,4.53
+59,Caramelos,Dulces,Nestlé,3.64,2.25
+60,Leche infantil,Bebé,Campofrío,14.21,9.33
+61,Queso,Lácteos,Campofrío,1.45,0.91
+62,Pienso gato,Mascotas,Bimbo,3.48,2.5
+63,Atún,Conservas,Bimbo,7.92,5.44
+64,Gominolas,Dulces,Bimbo,1.08,0.58
+65,Plátano,Frutas,Hero,8.55,4.68
+66,Chicles,Dulces,SuperData,9.47,6.44
+67,Naranja,Frutas,Coca-Cola,4.58,2.44
+68,Pipas,Snacks,Font Vella,7.08,3.68
+69,Detergente,Limpieza,Coca-Cola,5.62,2.63
+70,Pañales,Bebé,Coca-Cola,4.46,2.95
+71,Pizza,Congelados,Nestlé,2.24,1.41
+72,Atún,Conservas,Bimbo,0.76,0.48
+73,Doritos,Snacks,Central Lechera Asturiana,5.09,3.48
+74,Cebolla,Verduras,Central Lechera Asturiana,2.16,1.16
+75,Pienso perro,Mascotas,Nestlé,3.61,2.59
+76,Tomate triturado,Conservas,Casa Tarradellas,0.73,0.41
+77,Papel higiénico,Higiene,Nestlé,1.71,1.18
+78,Gominolas,Dulces,Coca-Cola,1.86,1.24
+79,Salchichas,Carnes,Casa Tarradellas,18.4,12.65
+80,Nata,Lácteos,Central Lechera Asturiana,6.34,3.96
+81,Vino,Bebidas,Casa Tarradellas,2.76,1.42
+82,Hamburguesa,Carnes,ElPozo,6.04,3.52
+83,Cepillo dientes,Higiene,SuperData,6.82,4.21
+84,Zumo,Bebidas,Bimbo,7.45,4.38
+85,Maíz,Conservas,Pascual,1.48,0.84
+86,Galletas,Desayuno,Hero,0.5,0.33
+87,Mantequilla,Lácteos,Danone,1.91,0.91
+88,Leche infantil,Bebé,Casa Tarradellas,14.49,8.98
+89,Pipas,Snacks,Coca-Cola,8.22,4.65
+90,Mandarina,Frutas,Pascual,4.19,2.19
+91,Agua,Bebidas,Central Lechera Asturiana,1.79,0.85
+92,Cerveza,Bebidas,Coca-Cola,4.0,2.44
+93,Chicles,Dulces,Central Lechera Asturiana,6.04,4.19
+94,Turrón,Dulces,SuperData,4.33,2.82
+95,Molde,Panadería,Danone,3.96,2.66
+96,Atún,Pescados,Bimbo,15.09,9.96
+97,Frutos secos,Snacks,Danone,5.25,3.51
+98,Suavizante,Limpieza,Casa Tarradellas,11.08,7.54
+99,Tomate triturado,Conservas,Pascual,8.07,4.19
+100,Cereales,Desayuno,ElPozo,9.65,4.66
+101,Chicles,Dulces,Casa Tarradellas,5.64,2.68
+102,Pepino,Verduras,Campofrío,9.77,5.79
+103,Zumo,Bebidas,Hero,5.39,3.75
+104,Pan Integral,Panadería,Hero,3.08,1.75
+105,Salchichas,Carnes,SuperData,13.82,9.94
+106,Galletas,Desayuno,Central Lechera Asturiana,7.44,4.16
+107,Lasaña,Congelados,Central Lechera Asturiana,2.3,1.52
+108,Cepillo dientes,Higiene,Hero,9.44,5.75
+109,Merluza,Pescados,Casa Tarradellas,16.26,10.74
+110,Frutos secos,Snacks,Coca-Cola,6.47,4.72
+111,Zumo,Bebidas,Font Vella,3.77,2.75
+112,Aquarius,Bebidas,Campofrío,3.09,1.93
+113,Doritos,Snacks,Gallina Blanca,1.09,0.6
+114,Salchichas,Carnes,Danone,14.53,10.89
+115,Toallitas,Bebé,Central Lechera Asturiana,7.81,3.78
+116,Café,Desayuno,Danone,0.5,0.32
+117,Calamares,Pescados,Central Lechera Asturiana,10.35,6.07
+118,Doritos,Snacks,Campofrío,6.66,4.9
+119,Doritos,Snacks,Font Vella,2.99,1.82
+120,Kiwi,Frutas,Hero,3.71,1.81
+121,Bacalao,Pescados,Nestlé,4.61,2.93
+122,Pan Integral,Panadería,Central Lechera Asturiana,5.75,3.61
+123,Pipas,Snacks,Danone,1.61,0.85
+124,Ternera,Carnes,Central Lechera Asturiana,5.27,3.27
+125,Champú,Higiene,Nestlé,2.13,1.52
+126,Brócoli,Verduras,Hero,4.61,2.9
+127,Batido,Lácteos,Font Vella,4.96,2.98
+128,Pasta de dientes,Higiene,Nestlé,6.49,4.53
+129,Pera,Frutas,Pascual,2.35,1.54
+130,Pienso gato,Mascotas,Font Vella,14.65,7.37
+131,Baguette,Panadería,ElPozo,8.12,4.8
+132,Uva,Frutas,Pascual,0.6,0.43
+133,Turrón,Dulces,Bimbo,9.53,4.35
+134,Pipas,Snacks,Bimbo,8.24,4.4
+135,Papel higiénico,Higiene,Nestlé,6.62,3.74
+136,Pan Integral,Panadería,Danone,2.3,1.35
+137,Molde,Panadería,Font Vella,4.7,2.18
+138,Chicles,Dulces,Central Lechera Asturiana,2.39,1.27
+139,Mandarina,Frutas,ElPozo,5.77,4.03
+140,Pan Integral,Panadería,Gallina Blanca,4.73,2.15
+141,Patatas fritas,Congelados,Bimbo,0.64,0.38
+142,Turrón,Dulces,Coca-Cola,1.07,0.68
+143,Turrón,Dulces,Hero,2.65,1.72
+144,Arena gato,Mascotas,Casa Tarradellas,3.15,1.55
+145,Gominolas,Dulces,Casa Tarradellas,4.17,1.94
+146,Pienso gato,Mascotas,Casa Tarradellas,14.43,10.32
+147,Cacao,Desayuno,Central Lechera Asturiana,5.01,2.27
+148,Zanahoria,Verduras,ElPozo,5.95,3.69
+149,Pañales,Bebé,Bimbo,6.1,2.95
+150,Cerveza,Bebidas,Campofrío,1.12,0.57
