@@ -19,3 +19,4 @@ data_raw/
 #Excepciones de notebook 
 bd2/*
 !bd2/notebook2.ipynb
+!bd2/notebook4.ipynb
