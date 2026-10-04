@@ -20,3 +20,7 @@ data_raw/
 bd2/*
 !bd2/notebook2.ipynb
 !bd2/notebook4.ipynb
+
+#Excepciones de metereologia
+metereologia/*
+!metereologia/metereologia.ipynb
