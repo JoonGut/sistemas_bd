@@ -24,3 +24,5 @@ bd2/*
 #Excepciones de metereologia
 metereologia/*
 !metereologia/metereologia.ipynb
+
+/bd5/notebook9/data/imagenes

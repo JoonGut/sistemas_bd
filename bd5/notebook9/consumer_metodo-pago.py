@@ -137,8 +137,7 @@ def mostrar_resumen():
             xy=(barra.get_x() + barra.get_width() / 2, altura),
             xytext=(0, 5),
             textcoords="offset points",
-            ha="center",
-            fontsize=10
+            ha="center"
         )
 
     ax.set_title("Ventas por método de pago", fontsize=16)
