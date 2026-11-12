@@ -2,11 +2,11 @@
 from confluent_kafka import Consumer
 import json
 import csv
-from pathlib import Path
 from collections import Counter
 import matplotlib.pyplot as plt
 
 from consumer_comun import (
+    RUTA_VENTAS,
     capturar_resumen,
     guardar_figura,
     guardar_resumen_word,
@@ -22,7 +22,6 @@ conf = {
 consumer = Consumer(conf)
 consumer.subscribe(["ventas"])
 
-RUTA_VENTAS = Path("data/ventas.csv")
 
 # Crear la carpeta si no existe
 RUTA_VENTAS.parent.mkdir(parents=True, exist_ok=True)
@@ -153,7 +152,7 @@ def mostrar_resumen():
 
     ax.set_ylim(0, max(cantidades) * 1.2)
 
-    guardar_figura(fig, "grafico_metodos_pago.png", dpi=300)
+    guardar_figura(fig, "metodos_pago.png", dpi=300)
 
     plt.close()
 
@@ -206,7 +205,7 @@ finally:
         mostrar_resumen()
 
     guardar_resumen_word(
-        "ej2_metodos_pago.docx",
+        "metodos_pago.docx",
         "Ejercicio 2 - Uso de los metodos de pago",
         buffer.getvalue(),
         imagenes_registradas(),

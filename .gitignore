@@ -26,3 +26,5 @@ metereologia/*
 !metereologia/metereologia.ipynb
 
 /bd5/notebook9/data/imagenes
+/bd5/notebook9/data/docs
+/bd5/notebook9/__pycache__

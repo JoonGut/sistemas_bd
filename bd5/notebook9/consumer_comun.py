@@ -15,7 +15,8 @@ from confluent_kafka import Consumer
 from docx import Document
 from docx.shared import Inches
 
-RUTA_DATA = Path("data")
+RUTA_BASE = Path(__file__).resolve().parent
+RUTA_DATA = RUTA_BASE / "data"
 RUTA_VENTAS = RUTA_DATA / "ventas.csv"
 RUTA_IMAGENES = RUTA_DATA / "imagenes"
 RUTA_DOCS = RUTA_DATA / "docs"

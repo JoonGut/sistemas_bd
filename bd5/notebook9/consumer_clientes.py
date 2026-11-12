@@ -97,7 +97,7 @@ def mostrar_resumen():
     ax.set_ylim(0, max(compras) * 1.2)
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right")
 
-    guardar_figura(fig, "ej4_top_10_clientes.png")
+    guardar_figura(fig, "top_10_clientes.png")
     plt.close(fig)
 
     print("\n" + "=" * 60)
@@ -107,6 +107,6 @@ if __name__ == "__main__":
     ejecutar_consumer(
         group_id="superdata-ej4",
         mostrar_resumen=mostrar_resumen,
-        nombre_word="ej4_clientes.docx",
+        nombre_word="clientes.docx",
         titulo_word="Ejercicio 4 - Comportamiento de los clientes",
     )

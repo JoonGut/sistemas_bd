@@ -49,6 +49,7 @@ def guardar_venta(venta):
         # escribimos primero la cabecera
         if not archivo_existe:
 
+
             writer.writeheader()
 
         writer.writerow(venta)
