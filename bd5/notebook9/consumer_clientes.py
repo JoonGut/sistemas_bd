@@ -107,4 +107,6 @@ if __name__ == "__main__":
     ejecutar_consumer(
         group_id="superdata-ej4",
         mostrar_resumen=mostrar_resumen,
+        nombre_word="ej4_clientes.docx",
+        titulo_word="Ejercicio 4 - Comportamiento de los clientes",
     )

@@ -5,6 +5,13 @@ from pathlib import Path
 from collections import Counter
 import matplotlib.pyplot as plt
 
+from consumer_comun import (
+    capturar_resumen,
+    guardar_figura,
+    guardar_resumen_word,
+    imagenes_registradas,
+)
+
 conf = {
     "bootstrap.servers": "localhost:9092",
     "group.id": "superdata",
@@ -128,17 +135,8 @@ def mostrar_resumen():
     ax.set_ylim(0, max(cantidades) * 1.2)
 
     plt.xticks(rotation=45)
-    plt.tight_layout()
 
-    Path("data/imagenes").mkdir(parents=True, exist_ok=True)
-
-    plt.savefig(
-        "data/imagenes/top_10_clientes.png",
-        dpi=300,
-        bbox_inches="tight"
-    )
-
-    print("\nGráfico guardado en data/imagenes/top_10_clientes.png")
+    guardar_figura(fig, "top_10_clientes.png", dpi=300)
 
     plt.close()
 
@@ -185,6 +183,15 @@ except KeyboardInterrupt:
 
 finally:
 
-    mostrar_resumen()
+    with capturar_resumen() as buffer:
+        mostrar_resumen()
+
+    guardar_resumen_word(
+        "info_clientes.docx",
+        "Ejercicio 4 - Comportamiento de los clientes",
+        buffer.getvalue(),
+        imagenes_registradas(),
+    )
+
     consumer.close()
 

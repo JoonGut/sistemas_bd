@@ -140,4 +140,6 @@ if __name__ == "__main__":
     ejecutar_consumer(
         group_id="superdata-ej6",
         mostrar_resumen=mostrar_resumen,
+        nombre_word="temporal.docx",
+        titulo_word="Ejercicio 6 - Analisis temporal de las ventas",
     )

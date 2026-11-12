@@ -131,6 +131,7 @@ def pregunta_1(completo):
         titulo="Top 10 categorias por ingresos",
         xlabel="Ingresos (EUR)",
         archivo="ingresos_categoria.png",
+        color="#4C72B0",
         formato="{:,.0f} EUR",
     )
 
@@ -496,4 +497,6 @@ if __name__ == "__main__":
     ejecutar_consumer(
         group_id="superdata-ej7",
         mostrar_resumen=mostrar_resumen,
+        nombre_word="ej7_preguntas.docx",
+        titulo_word="Ejercicio 7 - Cinco preguntas adicionales sobre las ventas",
     )

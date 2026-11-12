@@ -101,4 +101,6 @@ if __name__ == "__main__":
     ejecutar_consumer(
         group_id="superdata-ej5",
         mostrar_resumen=mostrar_resumen,
+        nombre_word="ej5_productos.docx",
+        titulo_word="Ejercicio 5 - Analisis de los productos vendidos",
     )

@@ -121,4 +121,6 @@ if __name__ == "__main__":
     ejecutar_consumer(
         group_id="superdata-ej3",
         mostrar_resumen=mostrar_resumen,
+        nombre_word="cantidades.docx",
+        titulo_word="Ejercicio 3 - Analisis de la columna cantidad",
     )

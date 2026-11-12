@@ -6,6 +6,13 @@ from pathlib import Path
 from collections import Counter
 import matplotlib.pyplot as plt
 
+from consumer_comun import (
+    capturar_resumen,
+    guardar_figura,
+    guardar_resumen_word,
+    imagenes_registradas,
+)
+
 conf = {
     "bootstrap.servers": "localhost:9092",
     "group.id": "superdata",
@@ -90,13 +97,14 @@ def mostrar_resumen():
     #Porcentaje de uso de cada método
     total_ventas = sum(contador_pagos.values())
 
-    porcentajes = {}
-    for metodo, porcentaje in porcentajes.items():
-        print(f"{metodo}: {porcentaje:.2f}% del total de ventas")
     porcentajes = {
         metodo: (cantidad / total_ventas) * 100
         for metodo, cantidad in contador_pagos.items()
     }
+
+    print("\nPORCENTAJE DE USO DE CADA METODO:")
+    for metodo, porcentaje in porcentajes.items():
+        print(f"{metodo}: {porcentaje:.2f}% del total de ventas")
 
 
     print("\n" + "-" * 50)
@@ -145,16 +153,7 @@ def mostrar_resumen():
 
     ax.set_ylim(0, max(cantidades) * 1.2)
 
-    plt.tight_layout()
-
-    # Guardar el gráfico como imagen
-    plt.savefig(
-        "data/imagenes/grafico_metodos_pago.png",
-        dpi=300,
-        bbox_inches="tight"
-    )
-
-    print("\nGrafico guardado en data/grafico_metodos_pago.png")
+    guardar_figura(fig, "grafico_metodos_pago.png", dpi=300)
 
     plt.close()
 
@@ -203,5 +202,14 @@ except KeyboardInterrupt:
 
 finally:
 
-    mostrar_resumen()
+    with capturar_resumen() as buffer:
+        mostrar_resumen()
+
+    guardar_resumen_word(
+        "ej2_metodos_pago.docx",
+        "Ejercicio 2 - Uso de los metodos de pago",
+        buffer.getvalue(),
+        imagenes_registradas(),
+    )
+
     consumer.close()

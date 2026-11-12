@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import io
 import json
+import sys
+from contextlib import contextmanager
 from pathlib import Path
 
 import matplotlib
@@ -9,14 +12,19 @@ matplotlib.use("Agg")
 
 import polars as pl
 from confluent_kafka import Consumer
+from docx import Document
+from docx.shared import Inches
 
 RUTA_DATA = Path("data")
 RUTA_VENTAS = RUTA_DATA / "ventas.csv"
 RUTA_IMAGENES = RUTA_DATA / "imagenes"
+RUTA_DOCS = RUTA_DATA / "docs"
 RUTA_CLIENTES = RUTA_DATA / "clientes.csv"
 RUTA_PRODUCTOS = RUTA_DATA / "productos.csv"
 
 TOPIC = "ventas"
+
+_imagenes_registradas: list[Path] = []
 
 COLUMNAS = [
     "id_venta",
@@ -33,12 +41,98 @@ def ruta_imagen(nombre: str) -> Path:
     return RUTA_IMAGENES / nombre
 
 
+def reiniciar_imagenes() -> None:
+    _imagenes_registradas.clear()
+
+
+def imagenes_registradas() -> list[Path]:
+    return list(_imagenes_registradas)
+
+
 def guardar_figura(fig, nombre: str, dpi: int = 150) -> Path:
     ruta = ruta_imagen(nombre)
     fig.tight_layout()
     fig.savefig(ruta, dpi=dpi, bbox_inches="tight")
+    _imagenes_registradas.append(ruta)
     print(f"\nGrafico guardado en {ruta}")
     return ruta
+
+
+class _Tee:
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, data):
+        for stream in self.streams:
+            stream.write(data)
+
+    def flush(self):
+        for stream in self.streams:
+            stream.flush()
+
+
+@contextmanager
+def capturar_resumen():
+    reiniciar_imagenes()
+    buffer = io.StringIO()
+    original = sys.stdout
+    sys.stdout = _Tee(original, buffer)
+    try:
+        yield buffer
+    finally:
+        sys.stdout = original
+
+
+def guardar_resumen_word(
+    nombre_archivo: str,
+    titulo: str,
+    texto: str,
+    imagenes=None,
+) -> Path:
+    RUTA_DOCS.mkdir(parents=True, exist_ok=True)
+    ruta = RUTA_DOCS / nombre_archivo
+
+    doc = Document()
+    doc.add_heading(titulo, level=0)
+
+    for linea in texto.splitlines():
+        limpia = linea.strip()
+        if not limpia or set(limpia) <= {"=", "-"}:
+            continue
+
+        if limpia.startswith("EJERCICIO") or limpia.startswith("PREGUNTA"):
+            doc.add_heading(limpia, level=1)
+        else:
+            doc.add_paragraph(linea.rstrip())
+
+    for imagen in imagenes or []:
+        ruta_imagen_actual = Path(imagen)
+        if not ruta_imagen_actual.exists():
+            continue
+        doc.add_page_break()
+        doc.add_heading(ruta_imagen_actual.stem, level=2)
+        doc.add_picture(str(ruta_imagen_actual), width=Inches(6))
+
+    doc.save(ruta)
+    print(f"Word guardado en {ruta}")
+    return ruta
+
+
+def _ejecutar_y_guardar(
+    mostrar_resumen,
+    nombre_word: str | None,
+    titulo_word: str,
+) -> None:
+    with capturar_resumen() as buffer:
+        mostrar_resumen()
+
+    if nombre_word:
+        guardar_resumen_word(
+            nombre_word,
+            titulo_word,
+            buffer.getvalue(),
+            imagenes_registradas(),
+        )
 
 
 def cargar_ventas() -> pl.DataFrame:
@@ -82,6 +176,8 @@ def ejecutar_consumer(
     group_id: str,
     mostrar_resumen,
     procesar_venta=None,
+    nombre_word: str | None = None,
+    titulo_word: str = "Resumen de ventas",
 ) -> None:
     parser = argparse.ArgumentParser(
         description="Consumer de ventas con analisis final en Polars"
@@ -95,7 +191,7 @@ def ejecutar_consumer(
 
     if args.offline:
         print("Modo offline: analizando data/ventas.csv sin Kafka.\n")
-        mostrar_resumen()
+        _ejecutar_y_guardar(mostrar_resumen, nombre_word, titulo_word)
         return
 
     consumer = Consumer(
@@ -151,4 +247,4 @@ def ejecutar_consumer(
             f"{RUTA_VENTAS} contiene ahora {total} registros unicos."
         )
 
-    mostrar_resumen()
+    _ejecutar_y_guardar(mostrar_resumen, nombre_word, titulo_word)
