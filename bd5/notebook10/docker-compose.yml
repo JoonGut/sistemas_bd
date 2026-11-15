@@ -8,6 +8,7 @@ services:
   kafka:
     image: confluentinc/cp-kafka:7.6.0
     container_name: kafka_broker
+    restart: unless-stopped
     depends_on:
       - zookeeper
     ports:
@@ -18,3 +19,33 @@ services:
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: "false"
+      KAFKA_ZOOKEEPER_SESSION_TIMEOUT_MS: 6000
+      KAFKA_ZOOKEEPER_CONNECTION_TIMEOUT_MS: 6000
+    healthcheck:
+      test: ["CMD", "cub", "kafka-ready", "-b", "localhost:9092", "1", "60"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+  prefect-server:
+    image: prefecthq/prefect:3-latest
+    container_name: prefect_server
+    restart: unless-stopped
+
+    entrypoint:
+      - prefect
+      - server
+      - start
+      - --host
+      - 0.0.0.0
+
+    environment:
+      PREFECT_API_DATABASE_CONNECTION_URL: sqlite+aiosqlite:////root/.prefect/prefect.db
+
+    ports:
+      - "4200:4200"
+
+    volumes:
+      - prefect_data:/root/.prefect
+
+volumes:
+  prefect_data:

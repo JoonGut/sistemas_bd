@@ -2,16 +2,6 @@
 
 from confluent_kafka.admin import AdminClient, NewTopic
 
-# AdminClient:
-# Nos permite realizar operaciones administrativas sobre Kafka:
-# consultar topics existentes
-# crear topics
-# eliminar topics
-# consultar información del broker
-
-# NewTopic:
-# Es simplemente una forma de crear un topic
-
 BOOTSTRAP_SERVERS = "localhost:9092"
 TOPIC = "ventas_demo" # guardamos el nombre del topic en una variable
 
